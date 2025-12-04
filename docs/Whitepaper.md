@@ -5,7 +5,7 @@ sidebar_label: "Whitepaper"  # 左侧菜单显示的名称（自定义你想要�
 ---
 import Viewer from '@/components/Viewer'; // 引入自定义组件
 
-<Viewer imgUrl="/img/logo.png" />
+<Viewer imgUrl="/assets/images/logo.png" />
 
 # **Vcity.ai Whitepaper**
 
@@ -113,7 +113,7 @@ The overall architecture adopts a layered design philosophy, comprising the foll
 
 <!-- ![Vcity.ai Product Architecture](images/vcityai_product_en.png) -->
 
-<Viewer imgUrl="/img/vcityai_product_en.png" />
+<Viewer imgUrl="/assets/images/vcityai_product_en.png" />
 
 ## 2.4 Compute Layer
 
@@ -300,7 +300,7 @@ The veVCAI weight $w_{\text{veVCAI}}$ owned by a user at any time point $t_{\tex
 w_{\text{veVCAI}}(t_{\text{now}}) = (n_{\text{VCAI}})^\alpha \cdot \frac{(t_{\text{unlock}} - t_{\text{now}})}{T_{\text{max}}}, \ \text{s.t. } t_{\text{now}} \le t_{\text{unlock}}
 $$ -->
 
-<Viewer imgUrl="/img/vcai.png" />
+<Viewer imgUrl="/assets/images/vcai.png" />
 
 This formula ensures:
 
@@ -350,7 +350,7 @@ The protocol introduces an automated supply-demand balancing mechanism designed 
   U_{\text{actual}} = \frac{\text{Computing Power Units Consumed in the Period}}{\text{Total Available Computing Power Units in the Period}} \times 100\%
   $$ -->
 
-<Viewer imgUrl="/img/actual.png" />
+<Viewer imgUrl="/assets/images/actual.png" />
 
 - Target Computing Power Utilization: The optimal computing power utilization rate pursued by the protocol. This target aims to ensure efficient network operation while retaining some redundancy to handle sudden demand. Denoted as $U_{\text{target}}$, set to 80%.
 - Adjustment Coefficient: A sensitivity coefficient controlling the speed of incentive ratio adjustment, ensuring the system converges smoothly towards the target and avoids drastic fluctuations. Denoted as $k$, set to 0.1.
@@ -362,7 +362,7 @@ The protocol introduces an automated supply-demand balancing mechanism designed 
 P_{\text{supply}}(t) = P_{\text{supply}}(t-1) + k \cdot \big(U_{\text{actual}}(t-1) - U_{\text{target}}\big)
 $$ -->
 
-<Viewer imgUrl="/img/supply.png" />
+<Viewer imgUrl="/assets/images/supply.png" />
 
 To avoid boundary violations, the system clips $P_{\text{supply}}(t)$ and $P_{\text{demand}}(t)$ to \[0%, 100%\] and enforces $P_{\text{supply}}(t)+P_{\text{demand}}(t)=100\%$. Where $P_{\text{supply}}(t)$ is the supply-side incentive ratio for the current period; $P_{\text{supply}}(t-1)$ is the supply-side incentive ratio for the previous period; $U_{\text{actual}}(t-1)$ is the actual computing power utilization for the previous period.
 
@@ -391,11 +391,11 @@ This mechanism is a classic negative feedback control system. Any deviation from
 <figure id="fig:flywheel_2">
 <div class="minipage">
 <!-- <img src="images/flywheel_1.png" /> -->
-<Viewer imgUrl="/img/flywheel_1.png" />
+<Viewer imgUrl="/assets/images/flywheel_1.png" />
 </div>
 <div class="minipage">
 <!-- <img src="images/flywheel_2.png" /> -->
-<Viewer imgUrl="/img/flywheel_2.png" />
+<Viewer imgUrl="/assets/images/flywheel_2.png" />
 </div>
 </figure>
 
@@ -471,7 +471,7 @@ The number of currently available dynamic supply proposal quotas for the DAO com
 \end{aligned}
 $$ -->
 
-<Viewer imgUrl="/img/quotas.png" />
+<Viewer imgUrl="/assets/images/quotas.png" />
 
 This mechanism ensures that the protocol's strategic capital operation capability always keeps pace with the network's real, balanced, and sustained growth and is ultimately constrained by the annual supply cap. Note that only "Strategic Issuance\" proposals consume this quota; "Protocol Repricing\", as a market capitalization management tool, does not consume quotas.
 
@@ -508,7 +508,7 @@ To tackle this challenge, we have built an elastic scheduling algorithm for dist
 
 <!-- ![Vcity.ai Technical Architecture](images/vcityai_tech_en.png) -->
 
-<Viewer imgUrl="/img/vcityai_tech_en.png" />
+<Viewer imgUrl="/assets/images/vcityai_tech_en.png" />
 
 # 5 Core Competitiveness of the Business Model
 

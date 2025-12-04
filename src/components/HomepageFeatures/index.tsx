@@ -15,7 +15,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: '容于维护和使用',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/assets/images/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
        yf-ui组件库是基于antd封装的ui组件库，设计是很容易使用的，完善的文档与demo演示。定义规定的代码规范，对于未来更容易维护，减少代码冗余。
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '关注业务开发的事情',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/assets/images/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         {/* Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -36,7 +36,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '丰富的接口支持',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/assets/images/undraw_docusaurus_react.svg').default,
     description: (
       <>
 

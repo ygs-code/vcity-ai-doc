@@ -23,7 +23,7 @@ const config = {
   ],
   title: 'Vcity.ai',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/logo.svg',
+  favicon: 'assets/images/logo.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -92,32 +92,10 @@ const config = {
 
 
             rehypeKatex,
-            //  {
-            //     // strict: false,
-            //     // trust: true,
-            //     // 关键：开启自动换行 + 配置换行规则
-            //     displayMode: true,
-            //     leqno: false,
-            //     fleqn: true, // 左对齐（可选，便于换行后阅读）
-            //     breakBefore: /[+\-*/=<>]/, // 在运算符处换行
-            //     breakAfter: /[+\-*/=<>]/,
-            //     maxExpand: 100,
-            //   }
-            // { strict: false, trust: true } // 兼容 \text 命令
-
+          
 
           ],
-          // remarkPlugins: [require('remark-math')], // 启用 LaTeX 解析
-          // rehypePlugins: [
-          //   [require('rehype-katex'), {
-          //     // 可选：配置 KaTeX 渲染选项（如公式样式）
-          //     strict: false
-          //   }]
-          // ]
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        
         },
         // blog: {
         //   showReadingTime: true,
@@ -155,12 +133,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'assets/images/docusaurus-social-card.jpg',
       navbar: {
         title: 'Vcity.ai',
         logo: {
           alt: 'Vcity.ai Logo',
-          src: 'img/logo.svg',
+          src: 'assets/images/logo.svg',
         },
         items: [
           // {

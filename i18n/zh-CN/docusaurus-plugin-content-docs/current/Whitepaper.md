@@ -5,7 +5,7 @@ sidebar_label: "白皮书"  # 左侧菜单显示的名称（自定义你想要�
 ---
 import Viewer from '@/components/Viewer'; // 引入自定义组件
 
-<Viewer imgUrl="/img/logo.png" />
+<Viewer imgUrl="/assets/images/logo.png" />
 
 # **Vcity.ai 白皮书**
 
@@ -108,7 +108,7 @@ Vcity.ai产品构建于可信公链之上，通过融合Web3与区块链技术�
 
 <!-- ![Vcity.ai 产品架构](images/vcityai_product.png) -->
 
-<Viewer imgUrl="/img/vcityai_product.png" />
+<Viewer imgUrl="/assets/images/vcityai_product.png" />
 
 ## 2.4 算力网络层
 
@@ -299,7 +299,7 @@ veVCAI（vote-escrowed VCAI）是 Vcity.ai 网络中的核心治理权益凭证�
 w_{\text{veVCAI}}(t_{\text{now}}) = (n_{\text{VCAI}})^\alpha \cdot \frac{(t_{\text{unlock}} - t_{\text{now}})}{T_{\text{max}}},\ \text{s.t. } t_{\text{now}} \le t_{\text{unlock}}
 $$ -->
 
-<Viewer imgUrl="/img/vcai.png" />
+<Viewer imgUrl="/assets/images/vcai.png" />
 
 这个公式确保了：
 
@@ -349,7 +349,7 @@ $$ -->
   U_{\text{actual}} = \frac{\text{周期内已消耗的算力单元}}{\text{周期内可提供的总算力单元}} \times 100\%
   $$ -->
 
-  <Viewer imgUrl="/img/actual-zh.png" />
+  <Viewer imgUrl="/assets/images/actual-zh.png" />
 - 目标算力利用率：协议追求的最优算力利用率。该目标旨在确保网络高效运行，同时保留一定的冗余以应对突发需求。表示为$U_{\text{target}}$，设定值为80%。
 - 调整系数：一个控制激励比例调整速度的敏感度系数，确保系统能够平稳地向目标收敛，避免剧烈波动。表示为$k$，设定值为0.1。
 - 激励分配比例：分配给供给侧的激励比例表示为$P_{\text{supply}}$，分配给需求侧的激励比例表示为$P_{\text{demand}}$；两者之和为100%，即$P_{\text{supply}} + P_{\text{demand}} = 100\%$；两者初始值均设为50%。
@@ -360,7 +360,7 @@ $$ -->
 P_{\text{supply}}(t) = P_{\text{supply}}(t-1) + k \cdot \big(U_{\text{actual}}(t-1) - U_{\text{target}}\big)
 $$ -->
 
-<Viewer imgUrl="/img/supply.png" />
+<Viewer imgUrl="/assets/images/supply.png" />
 
 为避免越界，系统对 $P_{\text{supply}}(t)$ 与 $P_{\text{demand}}(t)$ 实施区间裁剪，确保二者始终位于 \[0%, 100%\] 且和为 100%。 其中，$P_{\text{supply}}(t)$ 为当前周期的供给侧激励比例；$P_{\text{supply}}(t-1)$ 为上一个周期的供给侧激励比例；$U_{\text{actual}}(t-1)$ 为上一个周期的实际算力利用率。
 
@@ -389,11 +389,11 @@ $$ -->
 <figure id="fig:flywheel_2">
 <div class="minipage">
 <!-- <img src="images/flywheel_1.png" /> -->
-<Viewer imgUrl="/img/flywheel_1_zh.png" />
+<Viewer imgUrl="/assets/images/flywheel_1_zh.png" />
 </div>
 <div class="minipage">
 <!-- <img src="images/flywheel_2.png" /> -->
-<Viewer imgUrl="/img/flywheel_2_zh.png" />
+<Viewer imgUrl="/assets/images/flywheel_2_zh.png" />
 
 </div>
 </figure>
@@ -470,7 +470,7 @@ DAO社区当前可用的动态供应提案配额数量，由以下公式决定�
 \text{可用的提案配额} = min(\text{已达成的收入阶梯数}, \text{已达成的权益阶梯数}) - \text{已执行的提案数量}
 $$ -->
 
-<Viewer imgUrl="/img/quotas-zh.png" />
+<Viewer imgUrl="/assets/images/quotas-zh.png" />
 
  这一机制确保了协议的战略资本运作能力，始终与网络真实、均衡的持续增长保持同步，并受到年度供应上限的最终约束。需要注意的是，只有“战略增发”类型的提案会消耗此配额；“协议重定价”作为一种市值管理工具，不消耗配额。
 
@@ -507,7 +507,7 @@ Vcity.ai通过如下创新的技术架构，力图在Web3 + AI领域建立了独
 
 <!-- ![Vcity.ai技术解决方案架构](images/vcityai_tech.png) -->
 
-<Viewer imgUrl="/img/vcityai_tech.png" />
+<Viewer imgUrl="/assets/images/vcityai_tech.png" />
 
 # 五、商业模式核心竞争力
 

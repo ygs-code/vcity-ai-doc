@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.github
+.husky
+.vscode
+.gitignore
+package-lock.json
+yarn.lock
+yarn-error.log
