@@ -28,3 +28,38 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+
+/* .theme-doc-sidebar-container {
+  
+  opacity: 0;
+  visibility: hidden;
+ 
+} */
+/* .theme-doc-sidebar-container>div>div {
+
+  padding-top: 0px !important;
+} */
+
+
+/* 隐藏头部和页面 */
+/* .footer,
+.navbar--fixed-top{
+    display: none;
+}
+.margin-top--lg,
+.pagination-nav {
+  display: none;
+} */
+
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

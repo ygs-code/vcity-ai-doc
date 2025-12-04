@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.link.Facebook": {
+    "message": "Facebook",
+    "description": "The label for link 'Facebook' in sidebar 'mySidebar', linking to 'https://facebook.com'"
+  },
+  "sidebar.tutorialSidebar.category.Node-Operators-document": {
+    "message": "Node Operators document",
+    "description": "The label for category 'Node Operators document' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Node-Operators-document.link.generated-index.description": {
+    "message": "123123",
+    "description": "123213"
+  }
+}

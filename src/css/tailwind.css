@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@layer theme, base, mui, components, utilities;
+
+/* @config "../../tailwind.config.js";  */

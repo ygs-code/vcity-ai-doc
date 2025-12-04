@@ -1,0 +1,9 @@
+{
+  "label": "节点运营者文档",
+  "position": 3,
+   "key": "Node-Operators-document",
+  "link": {
+    "type": "generated-index",
+    "description": "这是节点运营者文档，其中包含了适用于 Linux 和 Windows 平台的文档内容。"
+  }
+}

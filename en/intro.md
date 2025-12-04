@@ -2,8 +2,7 @@
 sidebar_position: 1
 slug: /
 ---
-
-# Tutorial Intro
+# Tutorial Intro22
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
